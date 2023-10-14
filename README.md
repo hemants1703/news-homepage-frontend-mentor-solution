@@ -23,9 +23,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop Version](screenshots/desktop.png)
+![Desktop Version]([screenshots/desktop.png](https://github.com/hemants1703/news-homepage-frontend-mentor-solution/blob/d801625829da658712cc15568011a7e8774cf5cc/screenshots/desktop.png))
 
-![Mobile Version](screenshots/mobile.png)
+![Mobile Version]([screenshots/mobile.png](https://github.com/hemants1703/news-homepage-frontend-mentor-solution/blob/d801625829da658712cc15568011a7e8774cf5cc/screenshots/mobile.png))
 
 ### Links
 
