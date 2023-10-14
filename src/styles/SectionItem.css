@@ -1,0 +1,40 @@
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter-Regular;
+}
+
+.item-image {
+    width: 20%;
+    margin-right: 20px;
+}
+
+.item-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.item-text h2 {
+    color: var(--grayish-blue);
+    margin: 0;
+    padding: 0;
+}
+
+.item-text span {
+    margin: 10px 0;
+    font-family: Inter-Extra-Bold;
+}
+
+.item-text span:hover {
+    cursor: pointer;
+    color: var(--soft-orange);
+}
+
+.item-text p {
+    margin: 0;
+    padding: 0;
+    color: var(--dark-grayish-blue);
+}

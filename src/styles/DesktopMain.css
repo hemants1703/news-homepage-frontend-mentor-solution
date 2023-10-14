@@ -1,0 +1,137 @@
+.desktop-main {
+    display: block;
+}
+
+.desktop-main nav {
+    margin: 0 0 50px 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desktop-main .navlinks {
+    font-family: Inter-Regular;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desktop-main .navlinks li a {
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+    color: var(--dark-grayish-blue);
+}
+
+.desktop-main .navlinks li a:hover {
+    color: var(--soft-red);
+}
+
+.desktop-main .icon-menu,
+.desktop-main .icon-menu-close {
+    display: none;
+}
+
+.desktop-main .mobile-navbar {
+    flex-direction: column;
+    background-color: var(--off-white);
+    position: absolute;
+}
+
+.desktop-main .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    height: 500px;
+}
+
+.desktop-main .div1 {
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+.desktop-main .div1 img {
+    width: 100%;
+}
+
+.desktop-main .div2 {
+    grid-area: 2 / 1 / 3 / 2;
+    font-family: Inter-Extra-Bold;
+    font-size: -webkit-xxx-large;
+    width: 80%;
+}
+
+.desktop-main .div3 {
+    grid-area: 2 / 2 / 3 / 3;
+    color: var(--dark-grayish-blue);
+    font-family: Inter-Regular;
+}
+
+.desktop-main .div3 button {
+    background-color: var(--soft-red);
+    border: 0;
+    padding: 15px 30px;
+    font-family: Inter-Bold;
+    letter-spacing: 3px;
+    color: var(--off-white);
+}
+
+.desktop-main .div3 button:hover {
+    background-color: var(--very-dark-blue);
+    cursor: pointer;
+}
+
+.desktop-main .div4 {
+    grid-area: 1 / 3 / 3 / 4;
+    background-color: var(--very-dark-blue);
+    font-family: Inter-Regular;
+}
+
+.desktop-main .div4>div {
+    padding: 20px;
+}
+
+.desktop-main .div4 span {
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: var(--dark-grayish-blue);
+}
+
+.desktop-main .div4 h1 {
+    color: var(--soft-orange);
+    font-family: Inter-Extra-Bold;
+}
+
+.desktop-main .div4 h3 {
+    color: var(--off-white);
+    font-family: Inter-Bold;
+}
+
+.desktop-main .div4 h3:hover {
+    color: var(--soft-orange);
+    cursor: pointer;
+}
+
+.desktop-main .div4 p {
+    color: var(--dark-grayish-blue);
+}
+
+.desktop-main section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 375px) {
+    .icon-menu {
+        display: block;
+    }
+    .desktop-main {
+        display: none;
+    }
+}
